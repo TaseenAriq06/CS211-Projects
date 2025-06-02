@@ -1,5 +1,3 @@
-// Taseen Ariq
-// Rat Class
 #include <iostream>
 #include <cstdlib> 
 using namespace std;
@@ -44,7 +42,7 @@ public:
         reduce();
     }
     
-    // Constructor with whole number, and makes denominator 1
+    // Constructor with whole number, and makes the denominator 1
     Rat(int i){
         n = i;
         d = 1;
@@ -73,20 +71,6 @@ public:
     Rat operator == (Rat const&t){
         return Rat(n * t.d == d * t.n);         // Formula: (a/b == c/d) = (a*d == b*c)
     }
-
-    // friend ostream & operator << (ostream& os, Rat r);
-    // friend istream & operator >> (istream& is, Rat& r);
-
-    // ostream& operator<<(ostream& os, Rat r){
-    //    os << t.n << "/" << "t.d" << endl;
-    // }
-
-    // istream& opeartor>>(istream& os, Rat r){
-    //    char slash;
-    //    is >> t.n >> slash >> t.d;
-    // }
-
-    
 
     // Print the fraction in simplified or mixed form
     void print(){
