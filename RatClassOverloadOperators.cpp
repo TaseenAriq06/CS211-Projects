@@ -112,6 +112,7 @@ int main() {
     cout << "f2 = "; f2.print();
 
     cout << "_______________________" << endl;
+    cout << endl;
 
     Rat f6 = f1 + f2;
     cout << "f1 + f2 = "; f6.print(); 
