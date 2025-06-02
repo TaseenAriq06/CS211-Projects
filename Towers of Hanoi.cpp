@@ -1,5 +1,3 @@
-// Taseen Ariq
-// Towers of Hanoi
 #include <iostream>
 #include <vector>
 using namespace std;
