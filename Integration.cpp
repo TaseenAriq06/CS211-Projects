@@ -1,5 +1,3 @@
-// Taseen Ariq
-// Integration 
 #include <iostream>
 using namespace std;
 
