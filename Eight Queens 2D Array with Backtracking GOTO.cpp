@@ -1,5 +1,3 @@
-// Taseen Ariq
-// 8 queens 2D Array with Backtracking GOTO
 #include <iostream>
 using namespace std;
 
