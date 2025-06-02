@@ -33,7 +33,7 @@ int nqueens(int n) {
         }
     }
     
-    delete[] q; // delete the memory allocated for the array 
+    delete[] q; // delete the memory allocated for the array to avoid memory leaks
     return solutions; // return total solutions found
 }
 
