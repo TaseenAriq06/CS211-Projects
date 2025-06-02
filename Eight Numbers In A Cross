@@ -1,5 +1,3 @@
-// Taseen Ariq
-// 8 numbers in a cross - 1d with Backtracking
 #include <iostream>
 using namespace std;
 
