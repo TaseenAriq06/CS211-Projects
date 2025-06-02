@@ -1,5 +1,3 @@
-// Taseen Ariq
-// 8 Queens 1D Array with Backtracking & GOTO
 #include <iostream>
 using namespace std;
 
