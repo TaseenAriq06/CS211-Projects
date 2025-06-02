@@ -1,5 +1,3 @@
-// Taseen Ariq
-// 8 Queens Fancy Print Chessboard
 #include <iostream>
 using namespace std;
 
