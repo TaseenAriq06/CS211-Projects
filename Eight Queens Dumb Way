@@ -1,5 +1,3 @@
-// Taseen Ariq
-// 8 queens 1D Array with "dumb" way
 #include <iostream>
 using namespace std;
 
